@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E1E1E;
+    color: #fff;
+    font-family: 'Raleway', Verdana, sans-serif;
+}
+
+.logo {
+    height: 80px;
+    padding: 40px 0 0 40px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.section-container {
+    min-height: calc(100vh - 130px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title {
+    display: flex;
+    gap: 10px
+}
+
+.title-img {
+    width: 70px;
+}
+
+.subtitle h3 {
+    font-size: 32px;
+}
+
+.form-itens {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.form-itens input::placeholder {
+    font-family: 'Raleway', Verdana, sans-serif;
+}
+
+.form-itens input {
+    width: 27vw;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 7px;
+    margin: 10px 0 0 0;
+}
+
+.input-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.button {
+    background-color: #0C70F2;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.required {
+    height: 15px;
+}
+
+.input-info.error .required {
+    font-size: 12px;
+    font-weight: 300;
+    color: #E73550;
+    align-self: flex-end;
+}
+
+.no-completed {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #E73550;
+}
+
+.completed {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #0F7B0F;
+}
